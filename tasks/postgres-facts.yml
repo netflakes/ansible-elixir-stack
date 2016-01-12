@@ -5,7 +5,7 @@
 
 
 - name: "create or get postgres password"
-  set_fact: database_password="{{ database_password_var }}"
+  set_fact: database_password="{{ database_password_secret }}"
 
 - name: "set database user"
   set_fact: database_user="{{ deployer }}"
