@@ -104,7 +104,7 @@ echo
 if [ ! -f ./.tool-versions ]; then
   cat > .tool-versions <<EOF
 erlang 18.0
-elixir 1.0.5
+elixir 1.1.1
 nodejs 0.12.5
 EOF
   echo "TODO Edit .tool-versions file with appropriate versions of Erlang, Elixir & Node.js required for project"
