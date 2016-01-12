@@ -4,6 +4,6 @@ config :{{app_name}}, {{ app_endpoint_module }},
   adapter: Ecto.Adapters.Postgres,
   username: "{{ database_user }}",
   password: "{{ database_password }}",
-  database: "scout_resume_api_dev",
+  database: "{{ app_name }}_dev",
   hostname: "{{ database_name }}",
   pool_size: 10
