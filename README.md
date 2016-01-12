@@ -44,7 +44,7 @@ end
 2.) In your project dir, run following command:
 
 ```sh
-$ curl -L https://github.com/netflakes/ansible-elixir-stack/blob/master/elixir-deploy.sh | bash
+$ curl -L https://raw.githubusercontent.com/netflakes/ansible-elixir-stack/master/elixir-deploy.sh | bash
 ```
 
 **FOLLOW INSTRUCTIONS OF ABOVE COMMAND**
