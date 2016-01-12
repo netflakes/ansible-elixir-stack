@@ -21,7 +21,7 @@ Tool to deploy [Elixir](http://elixir-lang.org/) & [Phoenix](http://www.phoenixf
 
 ```sh
 $ pip install ansible
-$ ansible-galaxy install HashNuke.elixir-stack
+$ ansible-galaxy install netflakes.elixir-deploy
 
 # assuming your SSH key is called `id_rsa`
 # run this everytime you start your computer
@@ -44,7 +44,7 @@ end
 2.) In your project dir, run following command:
 
 ```sh
-$ curl -L http://git.io/ansible-elixir-stack.sh | bash
+$ curl -L https://github.com/netflakes/ansible-elixir-stack/blob/master/elixir-deploy.sh | bash
 ```
 
 **FOLLOW INSTRUCTIONS OF ABOVE COMMAND**
